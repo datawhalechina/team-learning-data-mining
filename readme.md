@@ -2,7 +2,7 @@
 
 主要包括：
 
-- 概率统计
+- [概率统计](https://github.com/datawhalechina/team-learning-data-mining/tree/master/ProbabilityStatistics)
 - 数据挖掘实践（房租预测）
 
 
