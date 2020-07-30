@@ -7,7 +7,7 @@
 
 - [概率统计](https://github.com/datawhalechina/team-learning-data-mining/tree/master/ProbabilityStatistics)
 - [机器学习算法基础]()
-- [数据挖掘实践（房租预测）]()
+- [数据挖掘实践（二手车价格预测）]()
 - [数据挖掘实践（房租预测）]()
 
 
