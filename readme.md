@@ -1,3 +1,6 @@
+
+# 简介
+
 本项目主要存储Datawhale组队学习中“数据挖掘/机器学习”方向的资料。
 
 主要包括：
@@ -10,7 +13,9 @@
 
 
 
-**备注：** 有关组队学习的开源内容
+# 备注
+
+有关组队学习的开源内容
 
 - [team-learning](https://github.com/datawhalechina/team-learning)：主要展示Datawhale的组队学习计划。
 - [team-learning-program](https://github.com/datawhalechina/team-learning-program)：主要存储Datawhale组队学习中“编程、数据结构与算法”方向的资料。
