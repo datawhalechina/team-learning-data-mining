@@ -4,12 +4,11 @@
 
 主要包括：
 - [概率统计](https://github.com/datawhalechina/team-learning-data-mining/tree/master/ProbabilityStatistics)
-- [机器学习算法基础](https://github.com/datawhalechina/team-learning-data-mining/tree/master/MachineLearningFundamentals)
+- [AI入门体验](https://github.com/datawhalechina/team-learning-data-mining/tree/master/IntroductionExperienceAI)
 - [动手学数据分析](https://github.com/datawhalechina/hands-on-data-analysis)
+- [机器学习算法基础](https://github.com/datawhalechina/team-learning-data-mining/tree/master/MachineLearningFundamentals)
 - [数据挖掘实践（二手车价格预测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/SecondHandCarPriceForecast)
 - [数据挖掘实践（房租预测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/RentForecast)
-
-
 
 ## 备注
 
