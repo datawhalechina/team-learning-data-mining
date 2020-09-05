@@ -1,4 +1,5 @@
-﻿# Task3 特征工程
+﻿
+# Task3 特征工程
 
 此部分为零基础入门金融风控的 Task3 特征工程部分，带你来了解各种特征工程以及分析方法，欢迎大家后续多多交流。
 
@@ -818,7 +819,8 @@ for df in [data_train, data_test_a]:
         df['grade_to_std_' + item] = df['grade'] / df.groupby([item])['grade'].transform('std')
 ```
 
-#### 这里给出一些特征交互的思路，但特征和特征间的交互衍生出新的特征还远远不止于此，抛砖引玉，希望大家多多探索。请学习者尝试其他的特征交互方法
+这里给出一些特征交互的思路，但特征和特征间的交互衍生出新的特征还远远不止于此，抛砖引玉，希望大家多多探索。请学习者尝试其他的特征交互方法。
+
 
 ### 3.3.6 特征编码
 
@@ -972,7 +974,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 SelectFromModel(GradientBoostingClassifier()).fit_transform(train,target_train)
 ```
 
-#### 本数据集中我们删除非入模特征后，并对缺失值填充，然后用计算协方差的方式看一下特征间相关性，然后进行模型训练
+本数据集中我们删除非入模特征后，并对缺失值填充，然后用计算协方差的方式看一下特征间相关性，然后进行模型训练
 
 
 ```python

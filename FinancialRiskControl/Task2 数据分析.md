@@ -1,4 +1,5 @@
-﻿# Task2 数据分析
+﻿
+# Task2 数据分析
 
 此部分为零基础入门金融风控的 Task2 数据分析部分，带你来了解数据，熟悉数据，为后续的特征工程做准备，欢迎大家后续多多交流。
 
@@ -61,7 +62,8 @@ warnings.filterwarnings('ignore')
 
 以上库都是pip install 安装就好，如果本机有python2,python3两个python环境傻傻分不清哪个的话,可以pip3 install 。或者直接在notebook中'!pip3 install ****'安装。
 
-### 说明：
+说明：
+
 本次数据分析探索，尤其可视化部分均选取某些特定变量进行了举例，所以它只是一个方法的展示而不是整个赛题数据分析的解决方案。
 
 ###  2.3.2 读取文件
@@ -76,8 +78,7 @@ data_train = pd.read_csv('./train.csv')
 data_test_a = pd.read_csv('./testA.csv')
 ```
 
-####  2.3.2.1读取文件的拓展知识
-
+读取文件的拓展知识：
 
 - pandas读取数据时相对路径载入报错时，尝试使用os.getcwd()查看当前工作目录。
 - TSV与CSV的区别：
@@ -105,9 +106,10 @@ for item in chunker:
     #5
 ```
 
-### 2.3.3总体了解
+### 2.3.3 总体了解
 
-#### 查看数据集的样本个数和原始特征维度
+
+查看数据集的样本个数和原始特征维度
 
 
 ```python
@@ -703,7 +705,7 @@ data_train.head(3).append(data_train.tail(3))
 
 
 
-### 2.3.4查看数据集中特征缺失值，唯一值等
+### 2.3.4 查看数据集中特征缺失值，唯一值等
 
 查看缺失值
 
@@ -808,7 +810,8 @@ print(f'There are {len(one_value_fea_test)} columns in test dataset with one uni
     There are 1 columns in test dataset with one unique value.
     
 
-###  总结：
+总结：
+
 47列数据中有22列都缺少数据，这在现实世界中很正常。‘policyCode’具有一个唯一值（或全部缺失）。有很多连续变量和一些分类变量。
 
 ### 2.3.5 查看特征的数值类型有哪些，对象类型有哪些
@@ -910,7 +913,7 @@ data_train.grade
 
 
 
-#### 数值型变量分析，数值型肯定是包括连续型变量和离散型变量的，找出来
+数值型变量分析，数值型肯定是包括连续型变量和离散型变量的，找出来。
 
 - 划分数值型变量中的连续变量和分类变量
 
@@ -1328,7 +1331,8 @@ data_train['isDefault'].value_counts()
 
 
 
-### 总结：
+总结：
+
 - 上面我们用value_counts()等函数看了特征属性的分布，但是图表是概括原始信息最便捷的方式。
 - 数无形时少直觉。
 - 同一份数据集，在不同的尺度刻画上显示出来的图形反映的规律是不一样的。python将数据转化成图表，但结论是否正确需要由你保证。
@@ -1443,7 +1447,7 @@ for p in plot_tr_2.patches:
 ![output_84_0.png](https://img-blog.csdnimg.cn/20200905092816794.png)
 
 
-### 2.3.6 时间格式数据处理及查看
+### 2.3.7 时间格式数据处理及查看
 
 
 ```python
@@ -1474,7 +1478,7 @@ plt.title('Distribution of issueDateDT dates');
 ![output_88_0.png](https://img-blog.csdnimg.cn/20200905092845328.png)
 
 
-### 2.3.7 掌握透视图可以让我们更好的了解数据
+### 2.3.8 掌握透视图可以让我们更好的了解数据
 
 
 ```python
@@ -1739,7 +1743,7 @@ pivot
 
 
 
-### 2.3.8 用pandas_profiling生成数据报告
+### 2.3.9 用pandas_profiling生成数据报告
 
 
 ```python
