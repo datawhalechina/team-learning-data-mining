@@ -2,7 +2,7 @@
 
 Tip:此部分为零基础入门金融风控的 Task5 模型融合部分，欢迎大家后续多多交流。
 赛题：零基础入门数据挖掘 - 零基础入门金融风控之贷款违约预测
-地址：
+地址：https://tianchi.aliyun.com/competition/entrance/531830/introduction
 
 ## 5.1 学习目标
 
