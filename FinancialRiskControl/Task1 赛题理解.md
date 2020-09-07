@@ -484,7 +484,7 @@ def Score(prob,P0=600,PDO=20,badrate=None,goodrate=None):
     return score
 ```
 
-END.
+END. 
 【 杨冰楠：Datawhale成员，金融风控爱好者。】
 
 
