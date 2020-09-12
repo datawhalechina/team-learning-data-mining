@@ -162,7 +162,7 @@ for clf, label, grd in zip(clf_list, label, grid):
     ax = plt.subplot(gs[grd[0], grd[1]])
     fig = plot_decision_regions(X=X, y=y, clf=clf)
     plt.title(label)
-
+ 
 
 plt.show()
 ```
