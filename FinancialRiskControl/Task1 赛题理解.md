@@ -299,7 +299,7 @@ train.head()
       <td>A</td>
       <td>A4</td>
       <td>46854.0</td>
-      <td>10+ years</td>
+      <td>10+ years</td> 
       <td>1</td>
       <td>...</td>
       <td>16.0</td>
