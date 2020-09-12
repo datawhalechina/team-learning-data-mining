@@ -174,7 +174,7 @@ plt.show()
     
 
 
-![png](https://img-blog.csdnimg.cn/20200913012401898.png)
+![png](https://img-blog.csdnimg.cn/20200913012401898.png) 
 
 
 ### 5.4.2 blending
