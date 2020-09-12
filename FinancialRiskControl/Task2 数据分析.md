@@ -1,4 +1,3 @@
-﻿
 # Task2 数据分析
 
 此部分为零基础入门金融风控的 Task2 数据分析部分，带你来了解数据，熟悉数据，为后续的特征工程做准备，欢迎大家后续多多交流。
@@ -12,7 +11,7 @@
 
 - 3.为特征工程做准备
 
-预测： https://tianchi.aliyun.com/competition/entrance/531830/introduction
+地址：https://tianchi.aliyun.com/competition/entrance/531830/introduction 
 
 ## 2.1 学习目标
 
@@ -62,8 +61,7 @@ warnings.filterwarnings('ignore')
 
 以上库都是pip install 安装就好，如果本机有python2,python3两个python环境傻傻分不清哪个的话,可以pip3 install 。或者直接在notebook中'!pip3 install ****'安装。
 
-说明：
-
+### 说明：
 本次数据分析探索，尤其可视化部分均选取某些特定变量进行了举例，所以它只是一个方法的展示而不是整个赛题数据分析的解决方案。
 
 ###  2.3.2 读取文件
@@ -78,7 +76,8 @@ data_train = pd.read_csv('./train.csv')
 data_test_a = pd.read_csv('./testA.csv')
 ```
 
-读取文件的拓展知识：
+####  2.3.2.1读取文件的拓展知识
+
 
 - pandas读取数据时相对路径载入报错时，尝试使用os.getcwd()查看当前工作目录。
 - TSV与CSV的区别：
@@ -106,10 +105,9 @@ for item in chunker:
     #5
 ```
 
-### 2.3.3 总体了解
+### 2.3.3总体了解
 
-
-查看数据集的样本个数和原始特征维度
+#### 查看数据集的样本个数和原始特征维度
 
 
 ```python
@@ -705,7 +703,7 @@ data_train.head(3).append(data_train.tail(3))
 
 
 
-### 2.3.4 查看数据集中特征缺失值，唯一值等
+### 2.3.4查看数据集中特征缺失值，唯一值等
 
 查看缺失值
 
@@ -759,10 +757,14 @@ missing.plot.bar()
 
 
 
-![output_34_1.png](https://img-blog.csdnimg.cn/20200905092323179.png)
+![png](https://img-blog.csdnimg.cn/20200913011527708.png)
 
 
-了解哪些列存在 “nan”, 并可以把nan的个数打印，主要的目的在于 nan存在的个数是否真的很大，如果很小一般选择填充，如果使用lgb等树模型可以直接空缺，让树自己去优化，但如果nan存在的过多、可以考虑删掉
+- 纵向了解哪些列存在 “nan”, 并可以把nan的个数打印，主要的目的在于查看某一列nan存在的个数是否真的很大，如果nan存在的过多，说明这一列对label的影响几乎不起作用了，可以考虑删掉。如果缺失值很小一般可以选择填充。
+- 另外可以横向比较，如果在数据集中，某些样本数据的大部分列都是缺失的且样本足够的情况下可以考虑删除。
+
+Tips:
+比赛大杀器lgb模型可以自动处理缺失值，Task4模型会具体学习模型了解模型哦！
 
 查看训练集测试集中特征属性只有一值的特征
 
@@ -810,12 +812,11 @@ print(f'There are {len(one_value_fea_test)} columns in test dataset with one uni
     There are 1 columns in test dataset with one unique value.
     
 
-总结：
-
+###  总结：
 47列数据中有22列都缺少数据，这在现实世界中很正常。‘policyCode’具有一个唯一值（或全部缺失）。有很多连续变量和一些分类变量。
 
 ### 2.3.5 查看特征的数值类型有哪些，对象类型有哪些
-- 特征一般都是由类别型特征和数值型特征组成
+- 特征一般都是由类别型特征和数值型特征组成，而数值型特征又分为连续型和离散型。
 - 类别型特征有时具有非数值关系，有时也具有数值关系。比如‘grade’中的等级A，B，C等，是否只是单纯的分类，还是A优于其他要结合业务判断。
 - 数值型特征本是可以直接入模的，但往往风控人员要对其做分箱，转化为WOE编码进而做标准评分卡等操作。从模型效果上来看，特征分箱主要是为了降低变量的复杂性，减少变量噪音对模型的影响，提高自变量和因变量的相关度。从而使模型更加稳定。
 
@@ -913,9 +914,9 @@ data_train.grade
 
 
 
-数值型变量分析，数值型肯定是包括连续型变量和离散型变量的，找出来。
+#### 数值型变量分析，数值型肯定是包括连续型变量和离散型变量的，找出来
 
-- 划分数值型变量中的连续变量和分类变量
+- 划分数值型变量中的连续变量和离散型变量
 
 
 ```python
@@ -1132,11 +1133,12 @@ g = g.map(sns.distplot, "value")
 ```
 
 
-![output_63_0.png](https://img-blog.csdnimg.cn/20200905092403482.png)
+![png](https://img-blog.csdnimg.cn/20200913011740449.png)
 
 
 - 查看某一个数值型变量的分布，查看变量是否符合正态分布，如果不符合正太分布的变量可以log化后再观察下是否符合正态分布。
 - 如果想统一处理一批数据变标准化 必须把这些之前已经正态化的数据提出
+- 正态化的原因：一些情况下正态非正态可以让模型更快的收敛，一些模型要求数据正态（eg. GMM、KNN）,保证数据不要过偏态即可，过于偏态可能会影响模型预测结果。
 
 
 ```python
@@ -1164,7 +1166,7 @@ sub_plot_2.set_ylabel("Probability", fontsize=15)
 
 
 
-![output_65_1.png](https://img-blog.csdnimg.cn/20200905092444845.png)
+![png](https://img-blog.csdnimg.cn/20200913011740399.png)
 
 
 - 非数值类别型变量分析
@@ -1331,8 +1333,7 @@ data_train['isDefault'].value_counts()
 
 
 
-总结：
-
+### 总结：
 - 上面我们用value_counts()等函数看了特征属性的分布，但是图表是概括原始信息最便捷的方式。
 - 数无形时少直觉。
 - 同一份数据集，在不同的尺度刻画上显示出来的图形反映的规律是不一样的。python将数据转化成图表，但结论是否正确需要由你保证。
@@ -1350,7 +1351,7 @@ plt.show()
 ```
 
 
-![output_77_0.png](https://img-blog.csdnimg.cn/20200905092517742.png)
+![png](https://img-blog.csdnimg.cn/20200913011740391.png)
 
 
 #### 根绝y值不同可视化x某个特征的分布
@@ -1374,7 +1375,7 @@ plt.show()
 ```
 
 
-![output_81_0.png](https://img-blog.csdnimg.cn/20200905092545400.png)
+![png](https://img-blog.csdnimg.cn/20200913011740398.png)
 
 
 - 其次查看连续型变量在不同y值上的分布
@@ -1408,7 +1409,7 @@ data_train.loc[data_train['isDefault'] == 0] \
 
 
 
-![output_83_1.png](https://img-blog.csdnimg.cn/20200905092739409.png)
+![png](https://img-blog.csdnimg.cn/20200913011740393.png)
 
 
 
@@ -1444,14 +1445,14 @@ for p in plot_tr_2.patches:
 ```
 
 
-![output_84_0.png](https://img-blog.csdnimg.cn/20200905092816794.png)
+![png](https://img-blog.csdnimg.cn/20200913011740395.png)
 
 
-### 2.3.7 时间格式数据处理及查看
+### 2.3.6 时间格式数据处理及查看
 
 
 ```python
-#转化成时间格式
+#转化成时间格式  issueDateDT特征表示数据日期离数据集中日期最早的日期（2007-06-01）的天数
 data_train['issueDate'] = pd.to_datetime(data_train['issueDate'],format='%Y-%m-%d')
 startdate = datetime.datetime.strptime('2007-06-01', '%Y-%m-%d')
 data_train['issueDateDT'] = data_train['issueDate'].apply(lambda x: x-startdate).dt.days
@@ -1475,10 +1476,10 @@ plt.title('Distribution of issueDateDT dates');
 ```
 
 
-![output_88_0.png](https://img-blog.csdnimg.cn/20200905092845328.png)
+![png](https://img-blog.csdnimg.cn/20200913011740377.png)
 
 
-### 2.3.8 掌握透视图可以让我们更好的了解数据
+### 2.3.7 掌握透视图可以让我们更好的了解数据
 
 
 ```python
@@ -1743,7 +1744,7 @@ pivot
 
 
 
-### 2.3.9 用pandas_profiling生成数据报告
+### 2.3.8 用pandas_profiling生成数据报告
 
 
 ```python
@@ -1764,11 +1765,12 @@ END.
 【 言溪：Datawhale成员，金融风控爱好者。知乎地址：https://www.zhihu.com/people/exuding】
 
 关于Datawhale：
-
 Datawhale是一个专注于数据科学与AI领域的开源组织，汇集了众多领域院校和知名企业的优秀学习者，聚合了一群有开源精神和探索精神的团队成员。Datawhale 以“for the learner，和学习者一起成长”为愿景，鼓励真实地展现自我、开放包容、互信互助、敢于试错和勇于担当。同时 Datawhale 用开源的理念去探索开源内容、开源学习和开源方案，赋能人才培养，助力人才成长，建立起人与人，人与知识，人与企业和人与未来的联结。
-
 本次数据挖掘路径学习，专题知识将在天池分享，详情可关注Datawhale：
 
-![logo.png](https://img-blog.csdnimg.cn/2020090509294089.png)
+![logo.png](https://img-blog.csdnimg.cn/2020091301022698.png#pic_center)
 
 
+```python
+
+```
