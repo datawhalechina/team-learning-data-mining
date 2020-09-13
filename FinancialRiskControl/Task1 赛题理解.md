@@ -2,7 +2,8 @@
 Tip:本次新人赛是Datawhale与天池联合发起的0基础入门系列赛事第四场 —— 零基础入门金融风控之贷款违约预测挑战赛。
 	赛题以金融风控中的个人信贷为背景，要求选手根据贷款申请人的数据信息预测其是否有违约的可能，以此判断是否通过此项贷款，这是一个典型的分类问题。通过这道赛题来引导大家了解金融风控中的一些业务背景，解决实际问题，帮助竞赛新人进行自我练习、自我提高。
 
-地址：
+项目地址：https://github.com/datawhalechina/team-learning-data-mining/tree/master/FinancialRiskControl
+比赛地址：https://tianchi.aliyun.com/competition/entrance/531830/introduction
 
 ### 1.1 学习目标
 理解赛题数据和目标，清楚评分体系。
@@ -497,5 +498,5 @@ END.
 Datawhale是一个专注于数据科学与AI领域的开源组织，汇集了众多领域院校和知名企业的优秀学习者，聚合了一群有开源精神和探索精神的团队成员。Datawhale 以“for the learner，和学习者一起成长”为愿景，鼓励真实地展现自我、开放包容、互信互助、敢于试错和勇于担当。同时 Datawhale 用开源的理念去探索开源内容、开源学习和开源方案，赋能人才培养，助力人才成长，建立起人与人，人与知识，人与企业和人与未来的联结。
 本次数据挖掘路径学习，专题知识将在天池分享，详情可关注Datawhale：
 
-![logo.png](https://img-blog.csdnimg.cn/2020091301022698.png#pic_center))
+![logo.png](https://img-blog.csdnimg.cn/2020091301022698.png#pic_center)
 

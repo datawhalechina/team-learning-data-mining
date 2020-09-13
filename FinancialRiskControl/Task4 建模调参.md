@@ -5,7 +5,8 @@
 
 赛题：零基础入门数据挖掘 - 零基础入门金融风控之贷款违约预测
 
-地址： https://tianchi.aliyun.com/competition/entrance/531830/introduction
+项目地址：https://github.com/datawhalechina/team-learning-data-mining/tree/master/FinancialRiskControl
+比赛地址：https://tianchi.aliyun.com/competition/entrance/531830/introduction
 
 
 
