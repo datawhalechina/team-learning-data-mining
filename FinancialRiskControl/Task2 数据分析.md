@@ -12,6 +12,7 @@
 - 3.为特征工程做准备
 
 项目地址：https://github.com/datawhalechina/team-learning-data-mining/tree/master/FinancialRiskControl
+
 比赛地址：https://tianchi.aliyun.com/competition/entrance/531830/introduction
 
 ## 2.1 学习目标
