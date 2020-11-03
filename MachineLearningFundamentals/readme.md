@@ -282,5 +282,5 @@
 赵楠||福州大学硕士
 杨开漠 | [Github](https://github.com/km1994)|五邑大学计算机硕士
 张雨||复旦大学博士
-马燕鹏|[CSDN](https://lsgogroup.blog.csdn.net/)|华北电力大学
+马燕鹏|[CSDN](https://lsgogroup.blog.csdn.net/)<br>微信公众号：LSGO软件技术团队|华北电力大学
 贾博雯|[CSDN](https://blog.csdn.net/love_fish_eat)|浙江大学硕士
