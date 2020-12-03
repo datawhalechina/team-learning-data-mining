@@ -1,10 +1,5 @@
 ﻿# 概率统计
 
-开源内容：https://github.com/datawhalechina/team-learning-data-mining/tree/master/ProbabilityStatistics
-
-
-> 注：此处显示本次组队学习的任务，点击标题的链接可以跳转到对应的学习资料。
-
 
 ## 基本信息
 
