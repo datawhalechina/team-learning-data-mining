@@ -8,7 +8,7 @@
 | 张晋   | 北京理工大学，Datawhale成员 |   https://blog.csdn.net/weixin_44585839      |
 | 雷钲仪   | 华东师范大学，Datawhale成员 |         |
 | 周郴莲   | 东北石油大学，Datawhale成员 |     https://blog.csdn.net/weixin_42691585    |
-| 宋怡然   | 上海交通大学，Datawhale成员 |     https://blog.csdn.net/weixin_42691585    |
+| 宋怡然   | 上海交通大学，Datawhale成员 |         |
 
 
 
