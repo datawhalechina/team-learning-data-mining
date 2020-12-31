@@ -1,16 +1,23 @@
 ﻿# 入门数据分析-学术前沿趋势
 
-## 技能点
+## 贡献者信息
+| 姓名                                                         | 介绍                                                         | 个人主页                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 刘羽中 | 数据科学从业者，Datawhale成员 |   https://www.zhihu.com/people/finlayliu      |
+| 杨毅远 | 清华大学，Datawhale成员 |   https://github.com/yyysjz1997      |
+| 张晋   | 北京理工大学，Datawhale成员 |   https://blog.csdn.net/weixin_44585839      |
+| 雷钲仪   | 华东师范大学，Datawhale成员 |         |
+| 周郴莲   | 东北石油大学，Datawhale成员 |     https://blog.csdn.net/weixin_42691585    |
+| 宋怡然   | 上海交通大学，Datawhale成员 |     https://blog.csdn.net/weixin_42691585    |
 
-涉及到的数据处理技能：
 
-- Pandas和Numpy
 
-涉及到的数据可视化技能:
+## 致谢
+特别感谢 [@LSGOMYP](https://github.com/LSGOMYP) 对本项目的帮助与支持。
 
-- Matplotlib
-- 机器学习技能Sklearn
-- 爬虫技能等
+## 关注我们
+
+<div align=center><img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width = "250" height = "270" alt="Datawhale是一个专注AI领域的开源组织，以“for the learner，和学习者一起成长”为愿景，构建对学习者最有价值的开源学习社区。关注我们，一起学习成长。"></div>
 
 ## 学习主题
 
