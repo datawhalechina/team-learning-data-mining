@@ -74,7 +74,7 @@ for row in data.iloc[:5].itertuples():
 nx.draw(G, with_labels=True)
 ```
 
-<img src="img/task5_image1.png" alt="task5_image1" style="zoom:50%;" align=center />
+<img src="img/task5_image1.png" alt="task5_image1" style="zoom:50%;"/>
 
 得到作者之间的距离：
 
@@ -107,4 +107,4 @@ nx.draw_networkx_edges(Gcc, pos, alpha=0.4)
 plt.show()
 ```
 
-<img src="img/task5_image2.png" alt="task5_image2" style="zoom:50%;" align=center />
+<img src="img/task5_image2.png" alt="task5_image2" style="zoom:50%;"/>
