@@ -27,7 +27,7 @@
 
 - 数据集实例：
 
-```json
+```python
 "root":{
 		"id":string"0704.0001"
 		"submitter":string"Pavel Nadolsky"
