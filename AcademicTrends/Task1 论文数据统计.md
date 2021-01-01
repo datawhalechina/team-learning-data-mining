@@ -302,7 +302,7 @@ df_taxonomy.groupby(["group_name","archive_name"])
 df_taxonomy
 ```
 
-![](img/image1.png)
+<img src="img/image1.png" alt="image1" style="zoom:50%;" />
 
 这里主要说明一下上面代码中的正则操作，这里我们使用re.sub来用于替换字符串中的匹配项
 
