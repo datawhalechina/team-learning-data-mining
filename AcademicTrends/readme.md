@@ -98,19 +98,6 @@ arXiv 重要的学术公开网站，也是搜索、浏览和下载学术论文�
 
 本次赛题将使用arXiv在公开的170万篇论文数据集，希望各位选手通过数据分析能够挖掘出最近学术的发展趋势和学术关键词。
 
-arXiv公开的数据集格式如下：
-
-- `id`：arXiv ID，可用于访问论文；
-- `submitter`：论文提交者；
-- `authors`：论文作者；
-- `title`：论文标题；
-- `comments`：论文页数和图表等其他信息；
-- `journal-ref`：论文发表的期刊；
-- `doi`：数字对象标识符；
-- `abstract`：论文摘要；
-- `categories`：论文在 arXiv 系统的所属类别或标签；
-- `versions`：论文版本。
-
 数据集来源：
 [https://www.kaggle.com/Cornell-University/arxiv](https://www.kaggle.com/Cornell-University/arxiv)
 
