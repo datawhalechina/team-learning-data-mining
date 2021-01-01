@@ -301,8 +301,7 @@ df_taxonomy = pd.DataFrame({
 df_taxonomy.groupby(["group_name","archive_name"])
 df_taxonomy
 ```
-
-<img src="img/image1.png" alt="image1" style="zoom:50%;" align=center />
+<img src="img/task1_image1.png" alt="task1_image1" style="zoom:50%;" align=center />
 
 这里主要说明一下上面代码中的正则操作，这里我们使用re.sub来用于替换字符串中的匹配项
 
@@ -375,7 +374,7 @@ _df
 
 结果如下：
 
-<img src="img/image2.png" alt="image2" style="zoom:50%;" align=center />
+<img src="img/task1_image2.png" alt="task1_image2" style="zoom:50%;" align=center />
 
 
 下面我们使用饼图进行上图结果的可视化：
@@ -390,7 +389,7 @@ plt.show()
 
 结果如下：
 
-<img src="img/image3.png" alt="image3" style="zoom:50%;" align=center />
+<img src="img/task1_image3.png" alt="task1_image3" style="zoom:50%;" align=center />
 
 下面统计在计算机各个子领域2019年后的paper数量：
 
@@ -402,6 +401,6 @@ cats.groupby(["year","category_name"]).count().reset_index().pivot(index="catego
 
 我们同样使用 merge 函数，对于两个dataframe 共同的特征 categories  进行合并并且进行查询。然后我们再对于数据进行统计和排序从而得到以下的结果：
 
-<img src="img/image4.png" alt="image4" style="zoom:30%;" align=center />
+<img src="img/task1_image4.png" alt="task1_image4" style="zoom:30%;" align=center />
 
 我们可以从结果看出，Computer Vision and Pattern Recognition（计算机视觉与模式识别）类是CS中paper数量最多的子类，遥遥领先于其他的CS子类，并且paper的数量还在逐年增加；另外，Computation and Language（计算与语言）、Cryptography and Security（密码学与安全）以及 Robotics（机器人学）的2019年paper数量均超过1000或接近1000，这与我们的认知是一致的。
