@@ -9,7 +9,7 @@
 | 雷钲仪   | 华东师范大学，Datawhale成员 |         |
 | 周郴莲   | 东北石油大学，Datawhale成员 |     https://blog.csdn.net/weixin_42691585    |
 | 宋怡然   | 上海交通大学，Datawhale成员 |         |
-
+姚童|华北电力大学，Datawhale成员|
 
 ## 赛题背景
 
@@ -103,7 +103,7 @@ arXiv 重要的学术公开网站，也是搜索、浏览和下载学术论文�
 
 
 ## 致谢
-特别感谢 [@LSGOMYP](https://github.com/LSGOMYP) 对本项目的帮助与支持。
+特别感谢 [@LSGOMYP](https://blog.csdn.net/LSGO_MYP) 对本项目的帮助与支持。
 
 ## 关注我们
 <div align=center><img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width = "250" height = "270" alt="Datawhale是一个专注AI领域的开源组织，以“for the learner，和学习者一起成长”为愿景，构建对学习者最有价值的开源学习社区。关注我们，一起学习成长。"></div>
