@@ -7,12 +7,16 @@
 - [概率统计](https://github.com/datawhalechina/team-learning-data-mining/tree/master/ProbabilityStatistics)
 - [AI入门体验](https://github.com/datawhalechina/team-learning-data-mining/tree/master/IntroductionExperienceAI)
 - [神经网络基础](https://github.com/datawhalechina/team-learning-data-mining/tree/master/NeuralNetwork)
-- [动手学数据分析](https://github.com/datawhalechina/hands-on-data-analysis)
+- [动手学数据分析](https://github.com/datawhalechina/team-learning-data-mining/tree/master/HandsOnDataAnalysis)
 - [机器学习算法基础](https://github.com/datawhalechina/team-learning-data-mining/tree/master/MachineLearningFundamentals)
 - [数据挖掘实践（房租预测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/RentForecast)
 - [数据挖掘实践（金融风控）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/FinancialRiskControl)
+- [数据挖掘实战（异常检测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/AnomalyDetection)
 - [数据挖掘实践（二手车价格预测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/SecondHandCarPriceForecast)
 - [数据挖掘实践（资金流入流出预测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/PurchaseAndRedemptionForecast)
+- [数据挖掘实战（学术前沿趋势分析）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/AcademicTrends)
+
+
 
 ## 备注
 
