@@ -71,7 +71,7 @@ Python中还内置了很多内置函数，非常方便使用：
 
 ### 数据读取
 
-```
+```python
 data = []
 with open("arxiv-metadata-oai-snapshot.json", 'r') as f: 
     for idx, line in enumerate(f): 
@@ -94,7 +94,7 @@ data = pd.DataFrame(data)
 
 为了节约计算时间，下面选择部分类别下的论文进行处理：
 
-```
+```python
 # 选择类别为cs.CV下面的论文
 data2 = data[data['categories'].apply(lambda x: 'cs.CV' in x)]
 
@@ -104,7 +104,7 @@ all_authors = sum(data2['authors_parsed'], [])
 
 处理完成后`all_authors`变成了所有一个list，其中每个元素为一个作者的姓名。我们首先来完成姓名频率的统计。
 
-```
+```python
 # 拼接所有的作者
 authors_names = [' '.join(x) for x in all_authors]
 authors_names = pd.DataFrame(authors_names)
@@ -126,7 +126,7 @@ plt.xlabel('Count')
 
 接下来统计姓名姓，也就是`authors_parsed`字段中作者第一个单词：
 
-```
+```python
 authors_lastnames = [x[0] for x in all_authors]
 authors_lastnames = pd.DataFrame(authors_lastnames)
 
