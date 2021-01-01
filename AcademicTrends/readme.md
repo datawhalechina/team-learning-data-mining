@@ -21,31 +21,31 @@
 
 ## 任务安排
 
-### Task1：论文数据统计（3天）
+### Task1：论文数据统计（3天）[Link](https://github.com/datawhalechina/team-learning-data-mining/blob/master/AcademicTrends/Task1%20%E8%AE%BA%E6%96%87%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1.md)
 
 - 学习主题：论文数量统计（数据统计任务），统计2019年全年，计算机各个方向论文数量；
 - 学习内容：赛题理解、`Pandas`读取数据、数据统计 ；
 - 学习成果：学习`Pandas`基础；
 
-### Task2：论文作者统计（3天）
+### Task2：论文作者统计（3天）[Link](https://github.com/datawhalechina/team-learning-data-mining/blob/master/AcademicTrends/Task2%20%E8%AE%BA%E6%96%87%E4%BD%9C%E8%80%85%E7%BB%9F%E8%AE%A1.md)
 
 - 学习主题：论文作者统计（数据统计任务），统计所有论文作者出现评率Top10的姓名；
 - 学习内容：作者姓名识别和统计；
 - 学习成果：学习字符串基本操作、`Matplotlib`基础使用、`Seaborn`基础使用；
 
-### Task3：论文代码统计（3天）
+### Task3：论文代码统计（3天）[Link](https://github.com/datawhalechina/team-learning-data-mining/blob/master/AcademicTrends/Task3%20%E8%AE%BA%E6%96%87%E4%BB%A3%E7%A0%81%E7%BB%9F%E8%AE%A1.md)
 
 - 学习主题：论文代码统计（数据统计任务），统计所有论文类别下包含源代码论文的比例；
 - 学习内容：代码链接识别和统计；
 - 学习成果：学会使用正则表达式；
 
-### Task4：论文种类分类（3天）
+### Task4：论文种类分类（3天）[Link](https://github.com/datawhalechina/team-learning-data-mining/blob/master/AcademicTrends/Task4%20%E8%AE%BA%E6%96%87%E7%A7%8D%E7%B1%BB%E5%88%86%E7%B1%BB.md)
 
 - 学习主题：论文种类分类（数据建模任务），利用已有数据建模，对新论文进行类别分类；
 - 学习内容：使用论文标题完成类别分类；
 - 学习成果：学会文本分类的基本方法、`TFIDF`等；
 
-### Task5：作者信息关联（3天）
+### Task5：作者信息关联（3天）[Link](https://github.com/datawhalechina/team-learning-data-mining/blob/master/AcademicTrends/Task5%20%E4%BD%9C%E8%80%85%E4%BF%A1%E6%81%AF%E5%85%B3%E8%81%94.md)
 
 - 学习主题：作者信息关联（数据建模任务），对论文作者关系进行建模，统计最常出现的作者关系；
 - 学习内容：构建作者关系图，挖掘作者关系；
