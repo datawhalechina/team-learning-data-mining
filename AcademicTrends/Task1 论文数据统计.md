@@ -1,13 +1,13 @@
 # 任务1：论文数据统计
 
-## 任务说明
+## 1.1 任务说明
 
 - 任务主题：论文数量统计，即统计2019年全年计算机各个方向论文数量；
 - 任务内容：赛题的理解、使用 **Pandas** 读取数据并进行统计；
 - 任务成果：学习 **Pandas** 的基础操作；
 - 可参考的学习资料：[开源组织Datawhale joyful-pandas项目](https://github.com/datawhalechina/joyful-pandas)
 
-## 数据集介绍
+## 1.2 数据集介绍
 
 - 数据集来源：[数据集链接](https://www.kaggle.com/Cornell-University/arxiv)；
 - 数据集的格式如下：
@@ -70,7 +70,7 @@
 }
 ```
 
-## Arxiv论文类别介绍
+## 1.3 arxiv论文类别介绍
 
 我们从arxiv官网，查询到论文的类别名称以及其解释如下。
 
@@ -97,9 +97,9 @@
 'cs.OS': 'Operating Systems',
 ```
 
-## 具体代码实现以及讲解
+## 1.4 具体代码实现以及讲解
 
-### 导入package并读取原始数据
+### 1.4.1 导入package并读取原始数据
 
 ```python
 # 导入所需的package
@@ -144,7 +144,7 @@ Output: (1778381, 14)
 data.head() #显示数据的前五行
 ```
 
-### 数据预处理
+### 1.4.2 数据预处理
 
 首先我们先来粗略统计论文的种类信息：
 
@@ -360,7 +360,7 @@ re.sub(r"(.*)\((.*)\)",r"\2",raw)
 
 这里推荐大家一个在线正则表达式测试的网站：[https://tool.oschina.net/regex/](https://tool.oschina.net/regex/)
 
-### 数据分析及可视化
+### 1.4.3 数据分析及可视化
 
 接下来我们首先看一下所有大类的paper数量分布：
 
