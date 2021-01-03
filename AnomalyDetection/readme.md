@@ -2,13 +2,13 @@
 
 ## 贡献者信息
 
-| 姓名                 | 介绍                        | 个人主页                                  |
-| -------------------- | --------------------------- | ----------------------------------------- |
-| 梁家晖               | Datawhale成员               | https://github.com/leungkafai             |
-| 李玲                 | Datawhale成员               | https://www.zhihu.com/people/liu-yu-18-38 |
-| 李芝翔               | 华北电力大学，Datawhale成员 | https://blog.csdn.net/weixin_39940512     |
-| 赵可                 | 国家电网，Datawhale成员     |                                           |
-| 陈信达【运营，群主】 | 华北电力大学，Datawhale成员 |                                           |
+| 姓名                 | 介绍                                | 个人主页                                  |
+| -------------------- | ----------------------------------- | ----------------------------------------- |
+| 梁家晖               | 华南理工大学广州学院，Datawhale成员 | https://github.com/leungkafai             |
+| 李玲                 | Datawhale成员                       | https://www.zhihu.com/people/liu-yu-18-38 |
+| 李芝翔               | 华北电力大学，Datawhale成员         | https://blog.csdn.net/weixin_39940512     |
+| 赵可                 | 国家电网，Datawhale成员             |                                           |
+| 陈信达【运营，群主】 | 华北电力大学，Datawhale成员         |                                           |
 
 
 
