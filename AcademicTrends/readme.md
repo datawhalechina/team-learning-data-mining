@@ -23,6 +23,10 @@
 
 ## 任务安排
 
+### Task00：熟悉规则（1天）
+- 组队、修改群昵称。
+- 熟悉打卡规则。
+
 ### Task1：论文数据统计（3天）[Link](https://github.com/datawhalechina/team-learning-data-mining/blob/master/AcademicTrends/Task1%20%E8%AE%BA%E6%96%87%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1.md)
 
 - 学习主题：论文数量统计（数据统计任务），统计2019年全年，计算机各个方向论文数量；
