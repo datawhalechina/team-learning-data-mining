@@ -9,6 +9,7 @@
 - [神经网络基础](https://github.com/datawhalechina/team-learning-data-mining/tree/master/NeuralNetwork)
 - [动手学数据分析](https://github.com/datawhalechina/team-learning-data-mining/tree/master/HandsOnDataAnalysis)
 - [机器学习算法基础](https://github.com/datawhalechina/team-learning-data-mining/tree/master/MachineLearningFundamentals)
+- [集成学习](https://github.com/datawhalechina/team-learning-data-mining/tree/master/IntegratedLearning)
 - [数据挖掘实践（房租预测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/RentForecast)
 - [数据挖掘实践（金融风控）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/FinancialRiskControl)
 - [数据挖掘实战（异常检测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/AnomalyDetection)
@@ -17,6 +18,7 @@
 - [数据挖掘实践（学术前沿趋势分析）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/AcademicTrends)
 - [数据挖掘实践（气象海洋预测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/WeatherOceanForecasts)
 - [数据挖掘实践（城市管理大数据）]（https://github.com/datawhalechina/team-learning-data-mining/tree/master/CityManagement）
+
 
 
 
