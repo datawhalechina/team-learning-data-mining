@@ -16,6 +16,7 @@
 - [数据挖掘实践（资金流入流出预测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/PurchaseAndRedemptionForecast)
 - [数据挖掘实践（学术前沿趋势分析）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/AcademicTrends)
 - [数据挖掘实践（气象海洋预测）](https://github.com/datawhalechina/team-learning-data-mining/tree/master/WeatherOceanForecasts)
+- [数据挖掘实践（城市管理大数据）]（https://github.com/datawhalechina/team-learning-data-mining/tree/master/CityManagement）
 
 
 
