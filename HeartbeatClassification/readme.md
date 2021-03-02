@@ -4,19 +4,19 @@
 
 | 姓名                 | 介绍                                | 个人主页                                  |
 | -------------------- | ----------------------------------- | ----------------------------------------- |
-| 鱼佬                 | 武汉大学，Datawhale成员，Coggle开源小组成员             | https://www.zhihu.com/people/wang-he-13-93         |
+| 鱼佬                 | 武汉大学，Datawhale成员，Coggle开源小组成员                 | https://www.zhihu.com/people/wang-he-13-93         |
 | 牧小熊               | 华中农业大学研究生，Datawhale优秀原创作者，Coggle开源小组成员  | https://www.zhihu.com/people/muxiaoxiong |
 | 吉米杜               | 平安NLP算法工程师，Datawhale成员，Coggle开源小组成员         | https://blog.csdn.net/duxiaodong1122?spm=1011.2124.3001.5343&type=blog     |
-| 张晋                 | Datawhale成员，算法竞赛爱好者             |  https://blog.csdn.net/weixin_44585839/        |
-| 陈信达【运营，群主】 | 华北电力大学，Datawhale成员         |                                           |
+| 张晋                 | Datawhale成员，算法竞赛爱好者                            |  https://blog.csdn.net/weixin_44585839/        |
+| 王皓月               | 华东师范大学数据科学与工程学院，Coggle开源小组成员            |      https://github.com/sunshinemingo    |
 
 
 ## 基本信息
 
-- 贡献人员：**鱼佬**，牧小熊，吉米杜，张晋，陈信达
+- 贡献人员：**鱼佬**，牧小熊，吉米杜，张晋，王皓月
 - 学习周期：15天，每天平均花费时间2小时-5小时不等，根据个人学习接受能力强弱有所浮动。
 - 学习形式：理论+实践
-- 人群定位：熟悉数据挖掘的基本方法，对学习异常检测算法有需求的学员。
+- 人群定位：熟悉数据挖掘的基本方法，对学习时间序列相关问题和医学大数据有需求的学员。
 - 先修内容：[Python编程语言](https://github.com/datawhalechina/team-learning-program/tree/master/Python-Language)、[编程实践（Numpy）](https://github.com/datawhalechina/team-learning-program/tree/master/IntroductionToNumpy)、[编程实践（Pandas）](https://github.com/datawhalechina/team-learning-program/tree/master/IntroductionToPandas)、[编程实践（数据可视化）](https://github.com/datawhalechina/fantastic-matplotlib)
 
 
