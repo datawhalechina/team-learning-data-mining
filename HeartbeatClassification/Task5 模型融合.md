@@ -277,7 +277,7 @@ Blending，其实和Stacking是一种类似的多层模型融合的形式
 缺点在于：
 - 使用了很少的数据（第二阶段的blender只使用training set10%的量）
 - blender可能会过拟合
-- stacking使用多次的交叉验证会比较稳健 '''
+- stacking使用多次的交叉验证会比较稳健
 
 
 ```python
