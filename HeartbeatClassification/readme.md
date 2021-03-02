@@ -4,7 +4,7 @@
 
 | 姓名                 | 介绍                                | 个人主页                                  |
 | -------------------- | ----------------------------------- | ----------------------------------------- |
-| 鱼佬                 | 武汉大学，Datawhale成员，Coggle开源小组成员                 | https://www.zhihu.com/people/wang-he-13-93         |
+| **鱼佬**                 | 武汉大学，Datawhale成员，Coggle开源小组成员                 | https://www.zhihu.com/people/wang-he-13-93         |
 | 牧小熊               | 华中农业大学研究生，Datawhale优秀原创作者，Coggle开源小组成员  | https://www.zhihu.com/people/muxiaoxiong |
 | 吉米杜               | 平安NLP算法工程师，Datawhale成员，Coggle开源小组成员         | https://blog.csdn.net/duxiaodong1122?spm=1011.2124.3001.5343&type=blog     |
 | 张晋                 | Datawhale成员，算法竞赛爱好者                            |  https://blog.csdn.net/weixin_44585839/        |
@@ -20,52 +20,50 @@
 - 先修内容：[Python编程语言](https://github.com/datawhalechina/team-learning-program/tree/master/Python-Language)、[编程实践（Numpy）](https://github.com/datawhalechina/team-learning-program/tree/master/IntroductionToNumpy)、[编程实践（Pandas）](https://github.com/datawhalechina/team-learning-program/tree/master/IntroductionToPandas)、[编程实践（数据可视化）](https://github.com/datawhalechina/fantastic-matplotlib)
 
 
-
-## 学习目标
-
-理解传统的异常检测方法原理，并具备基本的调用相应python库进行操作的能力。
-
-
-
 ## 任务安排
 
+### Task1 赛题理解及baseline学习 2天
+
+- 理解赛题数据和目标，清楚评分体系。
+- 完成赛题报名和数据下载，理解赛题的解题思路。
+- 学习baseline方案，并成功运行提交结果。
 
 
-### Task00：熟悉规则（1天）
+### Task2 探索性数据分析（EDA）（3天）
 
-- 组队、修改群昵称
-- 熟悉打卡规则。
+- EDA的价值主要在于熟悉数据集，了解数据集，对数据集进行验证来确定所获得数据集可以用于接下来的机器学习或者深度学习使用。
+- 当了解了数据集之后我们下一步就是要去了解变量间的相互关系以及变量与预测值之间的存在关系。
+- 引导数据科学从业者进行数据处理以及特征工程的步骤,使数据集的结构和特征集让接下来的预测问题更加可靠。
+- 完成对于数据的探索性分析，并对于数据进行一些图表或者文字总结并打卡。
 
-### Task01：异常检测介绍（2天）
+### Task3 特征工程 3天
 
-* 了解异常检测基本概念
-* 了解异常检测基本方法
+- 对于特征进行进一步分析，并对于数据进行处理。
+- 完成对于特征工程的分析，并对于数据进行一些图表或者文字总结并打卡。
 
-### Task02：基于统计学的方法（3天）
+### Task4 建模与调参 3天
 
-* 掌握基于高斯分布的异常检测方法
-* 理解非参数异常检测方法
-* 掌握HBOS算法
+- 了解常用的机器学习模型，并掌握机器学习模型的建模与调参流程。
+- 完成相应学习打卡任务。
 
-### Task03：线性模型（3天）
+### Task5 模型融合 3天
 
-* 理解线性回归
-* 掌握主成分分析的异常检测方法
+- 对于多种调参完成的模型进行模型融合。
+- 完成对于多种模型的融合，提交融合结果并打卡。
 
-### Task04：基于相似度的方法（3天）
+## 学习视频
 
-* 理解基于距离的异常检测方法
-* 掌握基于密度的LOF算法
+### 第1讲：赛题理解baseline讲解
+- 主讲人：
+- 链接：
 
-### Task05：高维异常检测（3天）
+### 第2讲：数据探索性分析和特征工程
+- 主讲人：
+- 链接：
 
-* 了解集成方法的思想
-* 理解feature bagging原理
-
-* 掌握孤立森林算法
-
-
-
+### 第3讲：建模调参，模型融合
+- 主讲人：
+- 链接
 
 **关于Datawhale**：
 
