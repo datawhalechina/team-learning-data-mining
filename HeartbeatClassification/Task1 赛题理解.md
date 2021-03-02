@@ -89,6 +89,7 @@ $$
 $$
 Precision = \frac{TP}{TP + FP}
 $$
+
 4.召回率（Recall） 也叫查全率 简写为R
 
 **召回率(Recall)**是针对原样本而言的，其含义是**在实际为正的样本中被预测为正样本的概率**。
@@ -106,12 +107,14 @@ $$
 $$
 {macroP=\frac{{1}}{{n}}{\mathop{ \sum }\limits_{{1}}^{{n}}{p\mathop{{}}\nolimits_{{i}}}}}
 $$
+
 6.宏查全率（macro-R）
 
 计算每个样本的召回率然后求平均值
 $$
 {macroR=\frac{{1}}{{n}}{\mathop{ \sum }\limits_{{1}}^{{n}}{R\mathop{{}}\nolimits_{{i}}}}}
 $$
+
 7.宏F1（macro-F1）
 $$
 {macroF1=\frac{{2 \times macroP \times macroR}}{{macroP+macroR}}}
@@ -122,10 +125,12 @@ $$
 $$
 {microP=\frac{{\overline{TP}}}{{\overline{TP} \times \overline{FP}}}}
 $$
+
 9.微查全率（micro-R）
 $$
 {microR=\frac{{\overline{TP}}}{{\overline{TP} \times \overline{FN}}}}
 $$
+
 10.微F1（micro-F1）
 $$
 {microF1=\frac{{2 \times microP\times microR }}{{microP+microR}}}
