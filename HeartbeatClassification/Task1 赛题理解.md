@@ -8,9 +8,7 @@ Tip:本次新人赛是Datawhale与天池联合发起的零基础入门系列赛�
 
 赛题以心电图数据为背景，要求选手根据心电图感应数据预测心跳信号，其中心跳信号对应正常病例以及受不同心律不齐和心肌梗塞影响的病例，这是一个多分类的问题。通过这道赛题来引导大家了解医疗大数据的应用，帮助竞赛新人进行自我练习、自我提高。
 
-项目地址：
-
-比赛地址：
+比赛地址：https://tianchi.aliyun.com/competition/entrance/531883/introduction
 
 ### 1.1学习目标
 
@@ -89,7 +87,6 @@ $$
 $$
 Precision = \frac{TP}{TP + FP}
 $$
-
 4.召回率（Recall） 也叫查全率 简写为R
 
 **召回率(Recall)**是针对原样本而言的，其含义是**在实际为正的样本中被预测为正样本的概率**。
@@ -107,14 +104,12 @@ $$
 $$
 {macroP=\frac{{1}}{{n}}{\mathop{ \sum }\limits_{{1}}^{{n}}{p\mathop{{}}\nolimits_{{i}}}}}
 $$
-
 6.宏查全率（macro-R）
 
 计算每个样本的召回率然后求平均值
 $$
 {macroR=\frac{{1}}{{n}}{\mathop{ \sum }\limits_{{1}}^{{n}}{R\mathop{{}}\nolimits_{{i}}}}}
 $$
-
 7.宏F1（macro-F1）
 $$
 {macroF1=\frac{{2 \times macroP \times macroR}}{{macroP+macroR}}}
@@ -125,12 +120,10 @@ $$
 $$
 {microP=\frac{{\overline{TP}}}{{\overline{TP} \times \overline{FP}}}}
 $$
-
 9.微查全率（micro-R）
 $$
 {microR=\frac{{\overline{TP}}}{{\overline{TP} \times \overline{FN}}}}
 $$
-
 10.微F1（micro-F1）
 $$
 {microF1=\frac{{2 \times microP\times microR }}{{microP+microR}}}
@@ -177,8 +170,8 @@ train_data.head()
 ```python
 from sklearn.metrics import accuracy_score, precision_score, recall_score
 from sklearn.metrics import f1_score
-y_test    = [1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4,5,5,6,6,6,0,0,0,0] #真实值
-y_predict = [1, 1, 1, 3, 3, 2, 2, 3, 3, 3, 4, 3, 4, 3,5,1,3,6,6,1,1,0,6] #预测值
+y_true    = [1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4,5,5,6,6,6,0,0,0,0] #真实值
+y_pred = [1, 1, 1, 3, 3, 2, 2, 3, 3, 3, 4, 3, 4, 3,5,1,3,6,6,1,1,0,6] #预测值
 
 #计算准确率
 print("accuracy:", accuracy_score(y_true, y_pred))
@@ -186,10 +179,10 @@ print("accuracy:", accuracy_score(y_true, y_pred))
 #计算macro_precision
 print("macro_precision", precision_score(y_true, y_pred, average='macro'))
 #计算micro_precision
-print("micro_precision", precision_score(y_true, y_pred, average='micro')
+print("micro_precision", precision_score(y_true, y_pred, average='micro'))
 #计算召回率
 #计算macro_recall
-print("macro_recall", recall_score(y_true, y_pred, average='macro')
+print("macro_recall", recall_score(y_true, y_pred, average='macro'))
 #计算micro_recall
 print("micro_recall", recall_score(y_true, y_pred, average='micro'))
 #计算F1

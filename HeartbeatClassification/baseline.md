@@ -1,4 +1,4 @@
-
+﻿
 
 # baseline
 
@@ -205,7 +205,7 @@ def cv_model(clf, train_x, train_y, test_x, clf_name):
 ```python
 def lgb_model(x_train, y_train, x_test):
     lgb_test = cv_model(lgb, x_train, y_train, x_test, "lgb")
-    return lgb_train, lgb_test
+    return lgb_test
 lgb_test = lgb_model(x_train, y_train, x_test)
 ```
 
