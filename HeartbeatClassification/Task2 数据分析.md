@@ -172,7 +172,7 @@ max	99999.000000	3.000000
 **获取train数据类型**
 
 ```python
-Train_data.info
+Train_data.info()
 ```
 
 ```txt
