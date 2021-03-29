@@ -14,7 +14,7 @@
 ## 初赛
 初赛提供11000条渔船北斗数据，数据包含脱敏后的渔船ID、经纬度坐标、上报时间、速度、航向信息，由于真实场景下海上环境复杂，经常出现信号丢失，设备故障等原因导致的上报坐标错误、上报数据丢失、甚至有些设备疯狂上报等。
 
-![image-20210329223218361](C:\Users\李运佳\AppData\Roaming\Typora\typora-user-images\image-20210329223218361.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210329225619655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDEzMzMyNw==,size_16,color_FFFFFF,t_70)
 
 # 评估指标
 
