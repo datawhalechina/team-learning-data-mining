@@ -37,12 +37,13 @@ https://tianchi.aliyun.com/competition/entrance/231768/information
 
 二、比赛数据和地理数据分析常用工具介绍中的附件数据
 
-链接：https://pan.baidu.com/s/1wiPPPRqjJBh33AC7GlZKcQ 
-提取码：nahw  （压缩包的密码是 zhihuihaiyang
+链接：https://pan.baidu.com/s/1AEWhNkSzx6Ls8XmVXFOQMg
+
+提取码：wrgg 
 
 比赛数据在本次组队学习中只用到了hy_round1_testA_20200102与hy_round1_train_20200102文件。其中DF.csv和df_gpd_change.pkl 分别是Task1中所需要的数据。 其中DF.csv是将轨迹数据进行异常处理之后的数据，而df_gpd_change.pkl是将异常处理之后的数据进行douglas-peucker算法进行压缩之后的数据。  
 
-其中group_df.csv是模型建立后的数据，group_df.csv是对轨迹数据进行特征提取之后的数据，其每一列代表一个特征，每一行代表每一个船舶id。
+其中group_df.csv是task3 模型建立后用到的数据，group_df.csv是对轨迹数据进行特征提取之后的数据，其每一列代表一个特征，每一行代表每一个船舶id。
 
 三、比赛开源方案
 
