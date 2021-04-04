@@ -141,18 +141,6 @@
 - 本赛题示例
 
 
----
-PDF 文档可到Datawhale的知识星球下载：
-
-![Datawhale](https://img-blog.csdnimg.cn/2020072621074658.png)
-
-
----
-![Datawhale](https://img-blog.csdnimg.cn/20200726211045814.png)
-
-
-
-
 
 
 
