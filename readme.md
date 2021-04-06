@@ -5,6 +5,7 @@
 
 主要包括：
 - [概率统计](https://github.com/datawhalechina/team-learning-data-mining/tree/master/ProbabilityStatistics)
+- [线性代数](https://github.com/datawhalechina/team-learning-data-mining/tree/master/LinearAlgebra)
 - [集成学习](https://github.com/datawhalechina/team-learning-data-mining/tree/master/EnsembleLearning)
 - [AI入门体验](https://github.com/datawhalechina/team-learning-data-mining/tree/master/IntroductionExperienceAI)
 - [神经网络基础](https://github.com/datawhalechina/team-learning-data-mining/tree/master/NeuralNetwork)
