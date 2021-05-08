@@ -1,26 +1,25 @@
-﻿# 数据挖掘实战（异常检测）
+﻿# 数据挖掘（异常检测）
 
 ## 贡献者信息
 
-| 姓名                 | 介绍                                | 个人主页                                  |
-| -------------------- | ----------------------------------- | ----------------------------------------- |
-| 梁家晖               | 华南理工大学广州学院，Datawhale成员 | https://github.com/leungkafai             |
-| 李玲                 | Datawhale成员                       | https://www.zhihu.com/people/liu-yu-18-38 |
-| 李芝翔               | 华北电力大学，Datawhale成员         | https://blog.csdn.net/weixin_39940512     |
-| 赵可                 | 国家电网，Datawhale成员             |                                           |
-| 陈信达【运营，群主】 | 华北电力大学，Datawhale成员         |                                           |
+| 姓名                 | 介绍                            | 个人主页                                  |
+| -------------------- | ------------------------------- | ----------------------------------------- |
+| 梁家晖               | 广州城市理工学院，Datawhale成员 | https://github.com/leungkafai             |
+| 李玲                 | Datawhale成员                   | https://www.zhihu.com/people/liu-yu-18-38 |
+| 李芝翔               | 华北电力大学，Datawhale成员     | https://blog.csdn.net/weixin_39940512     |
+| 赵可                 | 国家电网，Datawhale成员         |                                           |
+| 陈信达【运营，群主】 | 华北电力大学，Datawhale成员     |                                           |
+| 林星良【领航员】     | Datawhale成员，华南理工大学     | https://github.com/Aliang-CN              |
 
 
 
 ## 基本信息
 
-- 贡献人员：**梁家晖**，李玲，李芝翔，赵可，陈信达
+- 贡献人员：**梁家晖**，李玲，李芝翔，赵可，陈信达，林星良
 - 学习周期：15天，每天平均花费时间2小时-5小时不等，根据个人学习接受能力强弱有所浮动。
-- 学习形式：理论+实践
+- 学习形式：理论
 - 人群定位：熟悉数据挖掘的基本方法，对学习异常检测算法有需求的学员。
-- 先修内容：[Python编程语言](https://github.com/datawhalechina/team-learning-program/tree/master/Python-Language)、[编程实践（Numpy）](https://github.com/datawhalechina/team-learning-program/tree/master/IntroductionToNumpy)、[编程实践（Pandas）](https://github.com/datawhalechina/team-learning-program/tree/master/IntroductionToPandas)、[编程实践（数据可视化）](https://github.com/datawhalechina/fantastic-matplotlib)
-
-
+- 先修内容：具备数理统计与概率论基础即可。
 
 ## 学习目标
 
@@ -58,7 +57,7 @@
 * 理解基于距离的异常检测方法
 * 掌握基于密度的LOF算法
 
-### Task05：高维异常检测（3天）
+### Task05：集成方法（3天）
 
 * 了解集成方法的思想
 * 理解feature bagging原理
