@@ -41,7 +41,7 @@
 | ------ | ----------------------------------------------------- | ------------------------------------------------- |
 | 李祖贤 | Datawhale成员，项目负责人，深圳大学数学与应用数学专业 | https://www.zhihu.com/people/meng-di-76-92/posts  |
 | 赵可   | Datawhale成员，国家电网电气工程师                     |                                                   |
-| 杨毅远 | Datawhale成员，清华大学深圳研究生院研二               | https://github.com/yyysjz1997                     |
+| 杨毅远 | Datawhale成员，清华大学自动化系研二               | https://yyysjz1997.github.io/                     |
 | 薛传雨 | Datawhale成员，康涅狄格大学在读博士                   | http://chuanyuxue.com/                            |
 | 陈琰钰 | Datawhale成员，清华大学深圳研究生院研一               | https://cyy0214.github.io/                        |
 | 李嘉骐 | 清华大学自动化系在读博士                              | https://www.zhihu.com/people/li-jia-qi-16-9/posts |
