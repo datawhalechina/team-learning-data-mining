@@ -4,7 +4,7 @@
 | 姓名                                                         | 介绍                                                         | 个人主页                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 刘羽中 | 数据科学从业者，Datawhale成员 |   https://www.zhihu.com/people/finlayliu      |
-| 杨毅远 | 清华大学，Datawhale成员 |   https://github.com/yyysjz1997      |
+| 杨毅远 | 清华大学，Datawhale成员 |   https://yyysjz1997.github.io/      |
 | 张晋   | 北京理工大学，Datawhale成员 |   https://blog.csdn.net/weixin_44585839      |
 | 雷钲仪   | 华东师范大学，Datawhale成员 |         |
 | 周郴莲   | 东北石油大学，Datawhale成员 |     https://blog.csdn.net/weixin_42691585    |
