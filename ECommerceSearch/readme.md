@@ -10,5 +10,12 @@
 
 ### 任务1：环境配置、实践数据下载
 
-- 任务内容：从比赛官网下载数据集，并使用Python读取数据
+- 任务内容：
+  - 从比赛官网下载数据集，并使用Python读取数据
+  - 使用`jieba`对文本进行分词
+  - 使用`TFIDF`对文本进行编码
+  - 思考如何使用TFIDF计算文本相似度？
 - 学习资料：[https://coggle.club/blog/tianchi-open-search](https://coggle.club/blog/tianchi-open-search)
+
+
+### 任务2：词向量介绍与训练
