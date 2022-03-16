@@ -26,3 +26,8 @@
   - 使用词向量完成句子编码（例如单词编码为128维度，一个句子包含十个单词为10*128）
   - 对句子编码10*128进行求均值，转变为128维度
   - 扩展：你能使用计算得到的词向量，计算train和corpus文本的相似度吗？
+- 学习资料：
+  - [https://coggle.club/blog/tianchi-open-search](https://coggle.club/blog/tianchi-open-search)
+  - [https://radimrehurek.com/gensim/models/word2vec.html](https://radimrehurek.com/gensim/models/word2vec.html)
+
+## 任务3：IDF与词向量编码
