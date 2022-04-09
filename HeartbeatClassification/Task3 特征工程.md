@@ -4,8 +4,7 @@
 
 赛题：零基础入门数据挖掘-心跳信号分类预测
 
-项目地址：
-比赛地址：
+比赛地址：https://tianchi.aliyun.com/competition/entrance/531883/introduction
 
 ## 3.1 学习目标
 
