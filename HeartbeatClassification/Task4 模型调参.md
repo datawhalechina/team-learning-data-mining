@@ -5,9 +5,9 @@
 
 赛题：零基础入门数据挖掘 - 心电图分类预测
 
-项目地址：
+项目地址：https://github.com/datawhalechina/team-learning-data-mining/edit/master/HeartbeatClassification
 
-比赛地址：
+比赛地址：https://tianchi.aliyun.com/competition/entrance/531883/introduction
 
 
 
